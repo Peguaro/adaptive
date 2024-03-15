@@ -1,0 +1,58 @@
+:root {
+      --basic-green: #68b738;
+      --basic-grey: #f2f2f2;
+      --special-grey-2: #ebebeb;
+      --special-grey: #cdcdcd;
+      --special-grey-2: #666;
+      --special-dark-grey: #444;
+      --special-dark-grey-2: #222;
+      --status-error: #ff8282;
+      --basic-green-2: #5eaa2f;
+
+}
+
+@font-face {
+      font-family: "Oswald";
+      src: url(/fonts/AnyConv.com__Oswald-Regular.woff2) format("woff2");
+      font-weight: 400;
+      font-style: normal;
+}
+
+@font-face {
+      font-family: 'Oswald';
+      src: url(/fonts/AnyConv.com__Oswald-Medium.woff2) format("woff2");
+      font-weight: 500;
+      font-style: normal;
+}
+
+@font-face {
+      font-family: 'Arial';
+      src: url(/fonts/AnyConv.com__ofont.ru_Arial.woff2) format("woff2");
+      font-weight: 400;
+      font-style: normal;
+}
+
+/* ............... */
+
+
+/* центрирование страницы по центру */
+
+.page__body {
+      min-width: 940px;
+      margin: 0;
+      padding: 0;
+      font-family: "Oswald", "Arial", sans-serif;
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: 400;
+      color: var(--basic-black);
+      background-color: var(--basic-white);
+      display: grid;
+      grid-template-rows: min-content 1fr min-content;
+
+}
+
+/* вёрстка лого */
+
+
+/* вёрстка меню навигации */
