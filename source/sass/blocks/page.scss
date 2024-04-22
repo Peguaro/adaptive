@@ -1,0 +1,27 @@
+.page-body{
+   min-width: 1220px;
+   margin: 0;
+   padding: 0;
+   font-family: "Oswald", "Arial", sans-serif;
+   font-size:16px ;
+   line-height: 24px; 
+   font-weight: 400;
+   box-sizing: border-box;
+   display: grid;
+   grid-template-rows: min-content 1fr min-content;
+}
+
+.wrapper{
+@include wrapper}
+.page-header__btn-toogle {
+   display: none;
+}
+
+.page-header {
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   margin-top: 53px;
+}
+.page__main{
+}

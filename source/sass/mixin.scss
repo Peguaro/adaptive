@@ -1,0 +1,17 @@
+
+
+@mixin wrapper(){
+    width: 1220px;
+  margin: 0 auto;
+  text-align: center;
+   
+
+
+
+}
+@mixin button(){
+    color:var(--basic_white);
+    background-color: var(--basic_green);
+    
+    
+}

@@ -1,0 +1,28 @@
+{
+  "name": "adaptive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
+    "test": "npm run editorconfig && npm run stylelint",
+    "build": "gulp styles",
+    "start": "gulp"
+  },
+  "author": "lemurio",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "gulp": "^5.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sass": "^5.1.0",
+    "stylelint": "^16.3.1"
+  },
+  "dependencies": {
+    "browser-sync": "^3.0.2",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.74.1"
+  }
+}

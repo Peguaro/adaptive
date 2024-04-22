@@ -1,0 +1,23 @@
+.main-nav{
+    
+}
+.main-nav__list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    padding: 0;
+}
+.main-nav__site-list {
+}
+//измени цвет на белый s 
+.main-nav__item {
+    color: green;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding-right: 31px;
+    
+
+}
+.main-nav__item-active {
+}
